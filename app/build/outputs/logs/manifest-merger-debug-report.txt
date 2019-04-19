@@ -1,0 +1,240 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:2:1-29:12
+MERGED from [com.android.support:design:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/5854c86978dcf94033c51d79680ca980/AndroidManifest.xml:17:1-24:12
+MERGED from [com.yayandroid:LocationManager:2.0.4] /Users/tung/.gradle/caches/transforms-1/files-1.1/LocationManager-2.0.4.aar/814a376d4495fa79f32e47de3378f4ad/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b68b359036618c8e927e71a626966607/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/tung/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a5724d83e49fca5c11ebb1a3681b3cca/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-location-9.6.1.aar/4fb64f318cf2ea57d7fb2606ac632d5d/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-base:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/507e4b0aa169dfbfc9dc730ae7954fad/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.1.aar/6a4c835417d80c2012a4427f4c3f6bcf/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/8a29e763d52821a0ee6ddadc745c9b79/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/156e5327486c24fbcc01fc1a7c95ebda/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/ee716517d86c0e0be543ff947c7d1fc9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.volley:volley:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/d680e9ac7e09a35e981f10d192e37914/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/4d34722d0f0a625a985f25b7e1e73d35/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/f1ee8de9e63ce1780474013825434df4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/87fd6ca2ea58b48eaa1b5957a30c55b1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/be8b2e4ca9149c99e6e89627c2ea683c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/5c2519534c4efc0d243844633105128a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/7061b1f2edec7d48e51a2d8e1e0090e9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/334b6bdc7748ae2a51eb1f9918513803/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/36b215b4d3224ed5537dd682555b1c60/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/e01e82f2f5b47f37d9d68d5378f6dcfb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/9ed229e075a8e79083ac1486042d95d6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/a9005bb0437d35de3f2c53af17500e46/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/bed796410b94e10f41e779a0a65c3aa5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/63026a06a48da0432d0088cf44300f0b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/04ef4b89911802240e95c0c8c44dfd14/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/64777140f9a2266fb46dec25b4e22259/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fa1e41dc10bab9803a7dd1b3405a2269/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3bbac7b7216b98dfdc952aecb4558f0e/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/810c4c851cd8b958dcf70798195d427b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/2d1b7e987032ee48d0cd3b92c138e244/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/235389e403c02d2e9123236bff862028/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/18d8eefc5f5c3f4b3b184ea9f50111e2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/4cf07cbafaaf37ff0155a0a19c071c3e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/38e69dd802bf935d251bdd4e23b01a2e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/97dbc8eb16f7c1e4a08eb277539776d6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/2fc59bb194ae7ac84b21dc6e37be17e8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/cf2b44b5ad7025e53f84ea75bd6a6950/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a52ddbe5ca603c7c024e2e960163f510/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c2d8b326c2e71553aa9762fe37d952ab/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:2:1-29:12
+	package
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:3:5-42
+		INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:2:1-29:12
+		INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:8:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:9:22-78
+application
+ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:11:5-27:19
+MERGED from [com.android.support:design:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/5854c86978dcf94033c51d79680ca980/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/5854c86978dcf94033c51d79680ca980/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/tung/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a5724d83e49fca5c11ebb1a3681b3cca/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/tung/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a5724d83e49fca5c11ebb1a3681b3cca/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-location-9.6.1.aar/4fb64f318cf2ea57d7fb2606ac632d5d/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-location:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-location-9.6.1.aar/4fb64f318cf2ea57d7fb2606ac632d5d/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-base:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/507e4b0aa169dfbfc9dc730ae7954fad/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/507e4b0aa169dfbfc9dc730ae7954fad/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.1.aar/6a4c835417d80c2012a4427f4c3f6bcf/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.1.aar/6a4c835417d80c2012a4427f4c3f6bcf/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/8a29e763d52821a0ee6ddadc745c9b79/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/8a29e763d52821a0ee6ddadc745c9b79/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.volley:volley:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/d680e9ac7e09a35e981f10d192e37914/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/d680e9ac7e09a35e981f10d192e37914/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fa1e41dc10bab9803a7dd1b3405a2269/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fa1e41dc10bab9803a7dd1b3405a2269/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3bbac7b7216b98dfdc952aecb4558f0e/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3bbac7b7216b98dfdc952aecb4558f0e/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fa1e41dc10bab9803a7dd1b3405a2269/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:17:9-40
+activity#com.example.weatherforecast.Activity.MainActivity
+ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:18:9-24:20
+	android:name
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:18:19-56
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:19:13-23:29
+action#android.intent.action.MAIN
+ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:22:17-77
+	android:name
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:22:27-74
+activity#com.example.weatherforecast.Activity.ChooseCity
+ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:25:9-57
+	android:name
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:25:19-54
+activity#com.example.weatherforecast.Activity.SearchActivity
+ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:26:9-60
+	android:name
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml:26:19-58
+uses-sdk
+INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/5854c86978dcf94033c51d79680ca980/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/5854c86978dcf94033c51d79680ca980/AndroidManifest.xml:20:5-44
+MERGED from [com.yayandroid:LocationManager:2.0.4] /Users/tung/.gradle/caches/transforms-1/files-1.1/LocationManager-2.0.4.aar/814a376d4495fa79f32e47de3378f4ad/AndroidManifest.xml:8:5-10:41
+MERGED from [com.yayandroid:LocationManager:2.0.4] /Users/tung/.gradle/caches/transforms-1/files-1.1/LocationManager-2.0.4.aar/814a376d4495fa79f32e47de3378f4ad/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b68b359036618c8e927e71a626966607/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b68b359036618c8e927e71a626966607/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/tung/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a5724d83e49fca5c11ebb1a3681b3cca/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/tung/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/a5724d83e49fca5c11ebb1a3681b3cca/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-location-9.6.1.aar/4fb64f318cf2ea57d7fb2606ac632d5d/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-location:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-location-9.6.1.aar/4fb64f318cf2ea57d7fb2606ac632d5d/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-base:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/507e4b0aa169dfbfc9dc730ae7954fad/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-base:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/507e4b0aa169dfbfc9dc730ae7954fad/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.1.aar/6a4c835417d80c2012a4427f4c3f6bcf/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.6.1.aar/6a4c835417d80c2012a4427f4c3f6bcf/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/8a29e763d52821a0ee6ddadc745c9b79/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/8a29e763d52821a0ee6ddadc745c9b79/AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/156e5327486c24fbcc01fc1a7c95ebda/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/156e5327486c24fbcc01fc1a7c95ebda/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/ee716517d86c0e0be543ff947c7d1fc9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-28.0.0.aar/ee716517d86c0e0be543ff947c7d1fc9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/d680e9ac7e09a35e981f10d192e37914/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/volley-1.1.1.aar/d680e9ac7e09a35e981f10d192e37914/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/4d34722d0f0a625a985f25b7e1e73d35/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/4d34722d0f0a625a985f25b7e1e73d35/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/f1ee8de9e63ce1780474013825434df4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/f1ee8de9e63ce1780474013825434df4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/87fd6ca2ea58b48eaa1b5957a30c55b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/87fd6ca2ea58b48eaa1b5957a30c55b1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/be8b2e4ca9149c99e6e89627c2ea683c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/be8b2e4ca9149c99e6e89627c2ea683c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/5c2519534c4efc0d243844633105128a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/5c2519534c4efc0d243844633105128a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/7061b1f2edec7d48e51a2d8e1e0090e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/transition-28.0.0.aar/7061b1f2edec7d48e51a2d8e1e0090e9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/334b6bdc7748ae2a51eb1f9918513803/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/334b6bdc7748ae2a51eb1f9918513803/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/36b215b4d3224ed5537dd682555b1c60/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/36b215b4d3224ed5537dd682555b1c60/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/e01e82f2f5b47f37d9d68d5378f6dcfb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/e01e82f2f5b47f37d9d68d5378f6dcfb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/9ed229e075a8e79083ac1486042d95d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/9ed229e075a8e79083ac1486042d95d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/a9005bb0437d35de3f2c53af17500e46/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/a9005bb0437d35de3f2c53af17500e46/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/bed796410b94e10f41e779a0a65c3aa5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/bed796410b94e10f41e779a0a65c3aa5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/63026a06a48da0432d0088cf44300f0b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/63026a06a48da0432d0088cf44300f0b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/04ef4b89911802240e95c0c8c44dfd14/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/04ef4b89911802240e95c0c8c44dfd14/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/64777140f9a2266fb46dec25b4e22259/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/64777140f9a2266fb46dec25b4e22259/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fa1e41dc10bab9803a7dd1b3405a2269/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fa1e41dc10bab9803a7dd1b3405a2269/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3bbac7b7216b98dfdc952aecb4558f0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/3bbac7b7216b98dfdc952aecb4558f0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/810c4c851cd8b958dcf70798195d427b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/810c4c851cd8b958dcf70798195d427b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/2d1b7e987032ee48d0cd3b92c138e244/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/cardview-v7-28.0.0.aar/2d1b7e987032ee48d0cd3b92c138e244/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/235389e403c02d2e9123236bff862028/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/235389e403c02d2e9123236bff862028/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/18d8eefc5f5c3f4b3b184ea9f50111e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/18d8eefc5f5c3f4b3b184ea9f50111e2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/4cf07cbafaaf37ff0155a0a19c071c3e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/4cf07cbafaaf37ff0155a0a19c071c3e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/38e69dd802bf935d251bdd4e23b01a2e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/38e69dd802bf935d251bdd4e23b01a2e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/97dbc8eb16f7c1e4a08eb277539776d6/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/97dbc8eb16f7c1e4a08eb277539776d6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/2fc59bb194ae7ac84b21dc6e37be17e8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/tung/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/2fc59bb194ae7ac84b21dc6e37be17e8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/cf2b44b5ad7025e53f84ea75bd6a6950/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/cf2b44b5ad7025e53f84ea75bd6a6950/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a52ddbe5ca603c7c024e2e960163f510/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/a52ddbe5ca603c7c024e2e960163f510/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c2d8b326c2e71553aa9762fe37d952ab/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/c2d8b326c2e71553aa9762fe37d952ab/AndroidManifest.xml:20:5-44
+INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/tung/Documents/WeatherForecast-master/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/507e4b0aa169dfbfc9dc730ae7954fad/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/507e4b0aa169dfbfc9dc730ae7954fad/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/507e4b0aa169dfbfc9dc730ae7954fad/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/507e4b0aa169dfbfc9dc730ae7954fad/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/8a29e763d52821a0ee6ddadc745c9b79/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/8a29e763d52821a0ee6ddadc745c9b79/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.6.1] /Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/8a29e763d52821a0ee6ddadc745c9b79/AndroidManifest.xml:20:20-65

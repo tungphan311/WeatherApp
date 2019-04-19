@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1E88E5</color>
+    <color name="colorAccent">#1E88E5</color>
+    <color name="colorBackground">@android:color/transparent</color>
+    <color name="colorBackgroundDefault">#fafafa</color>
+    <color name="colorTintedBackground">#cdcdcd</color>
+
+    <color name="darkTheme_colorPrimary">#2196F3</color>
+    <color name="darkTheme_colorPrimaryDark">#1E88E5</color>
+    <color name="darkTheme_colorAccent">#2196F3</color>
+    <color name="darkTheme_colorBackground">#303030</color>
+    <color name="darkTheme_colorTintedBackground">#424242</color>
+
+    <color name="blackTheme_colorPrimary">#2196F3</color>
+    <color name="blackTheme_colorPrimaryDark">#1E88E5</color>
+    <color name="blackTheme_colorAccent">#2196F3</color>
+    <color name="blackTheme_colorBackground">#000000</color>
+    <color name="blackTheme_colorTintedBackground">#303030</color>
+
+    <color name="classic_colorPrimary">#607d8b</color>
+    <color name="classic_colorPrimaryDark">#455a64</color>
+    <color name="classic_colorAccent">#455a64</color>
+    <color name="classic_colorBackground">@android:color/transparent</color>
+    <color name="classic_colorTintedBackground">#cdcdcd</color>
+
+    <color name="classic_darkTheme_colorPrimary">#37474f</color>
+    <color name="classic_darkTheme_colorPrimaryDark">#263238</color>
+    <color name="classic_darkTheme_colorAccent">#90a4ae</color>
+    <color name="classic_darkTheme_colorBackground">#303030</color>
+    <color name="classic_darkTheme_colorTintedBackground">#263238</color>
+
+    <color name="classic_blackTheme_colorPrimary">#37474f</color>
+    <color name="classic_blackTheme_colorPrimaryDark">#263238</color>
+    <color name="classic_blackTheme_colorAccent">#90a4ae</color>
+    <color name="classic_blackTheme_colorBackground">#000000</color>
+    <color name="classic_blackTheme_colorTintedBackground">#303030</color>
+
+    <color name="splashBackground">#607d8b</color>
+
+    <color name="text_light">#ffffff</color>
+    <color name="text_dark">#000000</color>
+    <color name="tab_indicator">#ffffff</color>
+    <color name="primaryColor_500">#03a9f4</color>
+    <color name="primaryDarkColor_700">#0288d1</color>
+
+
+    <color name="primary_indigo">#3f51b5</color>
+    <color name="primary_blue">#5677fc</color>
+    <color name="primary_light_blue">#03a9f4</color>
+    <color name="primary_teal">#009688</color>
+    <color name="primary_light_green">#8bc34a</color>
+    <color name="primary_green">#259b24</color>
+    <color name="primary_lime">#cddc39</color>
+    <color name="primary_yellow">#ffeb3b</color>
+    <color name="primary_amber">#ffc107</color>
+    <color name="primary_orange">#ff9800</color>
+    <color name="primary_red">#e51c23</color>
+    <color name="primary_gray">#737373</color>
+
+    <color name="color_toolbar_background">#48A307</color>
+    <color name="color_toolbar_background_end">#9DEA65</color>
+</resources>
