@@ -24,12 +24,14 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.weatherforecast.Activity.MainActivity" >
+        <activity android:name="com.example.weatherforecast.Activity.SplashActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.example.weatherforecast.Activity.MainActivity" >
         </activity>
         <activity android:name="com.example.weatherforecast.Activity.ChooseCity" />
         <activity android:name="com.example.weatherforecast.Activity.SearchActivity" />

@@ -2,23 +2,12 @@ package com.example.weatherforecast.Activity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
-import android.content.pm.ActivityInfo;
 import android.location.Location;
 import android.os.Bundle;
-import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.Window;
 import android.widget.TextView;
 
-import com.example.weatherforecast.Fragment.TodayFragment;
-import com.example.weatherforecast.Fragment.TomorrowFragment;
 import com.example.weatherforecast.R;
-import com.example.weatherforecast.Fragment.SevenDaysFragment;
 import com.example.weatherforecast.SamplePresenter;
 import com.yayandroid.locationmanager.base.LocationBaseActivity;
 import com.yayandroid.locationmanager.configuration.Configurations;
@@ -26,50 +15,20 @@ import com.yayandroid.locationmanager.configuration.LocationConfiguration;
 import com.yayandroid.locationmanager.constants.FailType;
 import com.yayandroid.locationmanager.constants.ProcessType;
 
-public class MainActivity extends LocationBaseActivity implements SamplePresenter.SampleView {
-
-    private SectionsPagerAdapter mSectionsPagerAdapter;
-    private ViewPager mViewPager;
+public class SplashActivity extends LocationBaseActivity implements SamplePresenter.SampleView {
 
     private ProgressDialog progressDialog;
-
+    public String datasp;
     private SamplePresenter samplePresenter;
-
-    public String data;
-    Intent intent;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-
+        setContentView(R.layout.activity_splash);
         samplePresenter = new SamplePresenter(this);
         getLocation();
-
-        mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
-
-        mViewPager = (ViewPager) findViewById(R.id.container);
-        mViewPager.setAdapter(mSectionsPagerAdapter);
-
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
-        tabLayout.setupWithViewPager(mViewPager);
-
-        intent = getIntent();
-        if (intent != null) {
-            String id = intent.getStringExtra("id");
-            String lat = intent.getStringExtra("lat");
-            String lon = intent.getStringExtra("lon");
-            String datasp = intent.getStringExtra("data");
-            if (id != null) {
-                data = id;
-            }
-            else {
-                data=datasp;
-            }
-        }
     }
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
@@ -84,6 +43,10 @@ public class MainActivity extends LocationBaseActivity implements SamplePresente
     @Override
     public void onLocationChanged(Location location) {
         samplePresenter.onLocationChanged(location);
+                Intent intent = new Intent(getApplicationContext(),
+                MainActivity.class);
+        intent.putExtra("data",datasp);
+        startActivity(intent);
     }
 
     @Override
@@ -127,12 +90,12 @@ public class MainActivity extends LocationBaseActivity implements SamplePresente
 
     @Override
     public String getText() {
-        return data;
+        return datasp;
     }
 
     @Override
     public void setText(String text) {
-        data=text;
+        datasp=text;
     }
 
     @Override
@@ -149,50 +112,4 @@ public class MainActivity extends LocationBaseActivity implements SamplePresente
         }
     }
 
-
-    public class SectionsPagerAdapter extends FragmentPagerAdapter {
-
-        public SectionsPagerAdapter(FragmentManager fm) {
-            super(fm);
-        }
-
-        @Override
-        public Fragment getItem(int position) {
-            Fragment fragment = null;
-
-            switch (position) {
-                case 0:
-                    fragment = new TodayFragment();
-                    break;
-
-                case 1:
-                    fragment = new TomorrowFragment();
-                    break;
-
-                case 2:
-                    fragment = new SevenDaysFragment();
-                    break;
-            }
-
-            return fragment;
-        }
-
-        @Override
-        public int getCount() {
-            return 3;
-        }
-
-        @Override
-        public CharSequence getPageTitle(int position) {
-            switch (position) {
-                case 0:
-                    return "NOW";
-                case 1:
-                    return "NEXT 24 HOURS";
-                case 2:
-                    return "NEXT 5 DAYS";
-            }
-            return null;
-        }
-    }
 }

@@ -1443,6 +1443,7 @@ layout abc_tooltip
 layout activity_choose_city
 layout activity_main
 layout activity_search
+layout activity_splash
 layout activity_today
 layout day_of_week
 layout design_bottom_navigation_item
