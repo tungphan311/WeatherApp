@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/tung/Documents/WeatherForecast-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml",
+            "outputFile": "/Users/dangquang9a/Documents/WeatherApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-az/values-az.xml",
             "map": [
                 {
-                    "source": "/Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/8a29e763d52821a0ee6ddadc745c9b79/res/values-az/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "4",
-                        "startOffsets": "343",
-                        "endColumns": "254",
-                        "endOffsets": "593"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4058",
-                        "endColumns": "254",
-                        "endOffsets": "4308"
-                    }
-                },
-                {
-                    "source": "/Users/tung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b68b359036618c8e927e71a626966607/res/values-az/values-az.xml",
+                    "source": "/Users/dangquang9a/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c92b23e432a3e8e470c4e04df3c7e3e1/res/values-az/values-az.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/tung/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fa1e41dc10bab9803a7dd1b3405a2269/res/values-az/values-az.xml",
+                    "source": "/Users/dangquang9a/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/216fb1d11673c6ad13bef76ced858261/res/values-az/values-az.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -55,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/507e4b0aa169dfbfc9dc730ae7954fad/res/values-az/values.xml",
+                    "source": "/Users/dangquang9a/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/b6dafeccf601a7add5c3480d3c98e655/res/values-az/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -69,6 +52,23 @@
                         "startOffsets": "2820,2931,3118,3253,3365,3576,3788,3923,4313,4565,4691,4803,4983,5122,5325,5459,5645,5739,5834",
                         "endColumns": "110,186,134,111,210,211,134,134,251,125,111,179,138,202,133,185,93,94,109",
                         "endOffsets": "2926,3113,3248,3360,3571,3783,3918,4053,4560,4686,4798,4978,5117,5320,5454,5640,5734,5829,5939"
+                    }
+                },
+                {
+                    "source": "/Users/dangquang9a/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/ae019b874a48be213ee96d375deaa176/res/values-az/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "343",
+                        "endColumns": "254",
+                        "endOffsets": "593"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4058",
+                        "endColumns": "254",
+                        "endOffsets": "4308"
                     }
                 }
             ]

@@ -1364,6 +1364,7 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id today_fragment
 id top
 id topPanel
 id touch_outside
@@ -1442,6 +1443,7 @@ layout abc_tooltip
 layout activity_choose_city
 layout activity_main
 layout activity_search
+layout activity_today
 layout day_of_week
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

@@ -47,13 +47,14 @@ import java.util.Locale;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class SevenDaysFragment extends Fragment {
+public class SevenDaysFragment extends LocationBaseFragment implements SamplePresenter.SampleView {
     ArrayList<Weather> listWeather;
     TodayAdapter adapter;
     ListView listView;
     SamplePresenter samplePresenter;
     ProgressDialog progressDialog;
     MainActivity main;
+    String coords;
 
     public SevenDaysFragment() {
         // Required empty public constructor
@@ -73,17 +74,17 @@ public class SevenDaysFragment extends Fragment {
 
         initView(view);
 
-        main=(MainActivity)getActivity();
-        initData(main.data);
+        main = (MainActivity) getActivity();
+        coords=main.data;
+        Log.d("Toado", "data: " + coords);
+
+        initData(coords);
+        samplePresenter = new SamplePresenter(this);
+        getLocation();
 
         return view;
     }
 
-    @Override
-    public void onStart() {
-        super.onStart();
-        initData("");
-    }
 
     public void initView(View view) {
         listWeather = new ArrayList<Weather>();
@@ -94,8 +95,8 @@ public class SevenDaysFragment extends Fragment {
 
     public void initData(String data) {
         RequestQueue requestQueue = Volley.newRequestQueue(getActivity().getApplicationContext());
-        String url = "https://api.openweathermap.org/data/2.5/forecast?id=" + data + "&lang=en&mode=json&appid=3e29e62e2ddf6dd3d2ebd28aed069215&units=metric";
-        //String url ="https://api.openweathermap.org/data/2.5/forecast?lat="+data +"&lang=en&mode=json&appid=3e29e62e2ddf6dd3d2ebd28aed069215&units=metric";
+//        String url = "https://api.openweathermap.org/data/2.5/forecast?id=" + data + "&lang=en&mode=json&appid=3e29e62e2ddf6dd3d2ebd28aed069215&units=metric";
+        String url ="https://api.openweathermap.org/data/2.5/forecast?lat="+data +"&lang=en&mode=json&appid=3e29e62e2ddf6dd3d2ebd28aed069215&units=metric";
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
@@ -155,6 +156,87 @@ public class SevenDaysFragment extends Fragment {
         });
 
         requestQueue.add(stringRequest);
+    }
+    @Override
+    public LocationConfiguration getLocationConfiguration() {
+        return Configurations.defaultConfiguration("Gimme the permission!", "Would you mind to turn GPS on?");
+    }
+
+    @Override
+    public void onLocationChanged(Location location) {
+        samplePresenter.onLocationChanged(location);
+    }
+
+    @Override
+    public void onLocationFailed(@FailType int failType) {
+        samplePresenter.onLocationFailed(failType);
+    }
+
+    @Override
+    public void onProcessTypeChanged(@ProcessType int processType) {
+        samplePresenter.onProcessTypeChanged(processType);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        if (getLocationManager().isWaitingForLocation()
+                && !getLocationManager().isAnyDialogShowing()) {
+            displayProgress();
+        }
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        dismissProgress();
+    }
+
+    private void displayProgress() {
+        if (progressDialog == null) {
+            progressDialog = new ProgressDialog(getContext());
+            progressDialog.getWindow().addFlags(Window.FEATURE_NO_TITLE);
+            progressDialog.setMessage("Getting location...");
+        }
+
+        if (!progressDialog.isShowing()) {
+            progressDialog.show();
+        }
+    }
+
+    @Override
+    public String getText() {
+
+        return coords;
+
+    }
+
+    @Override
+    public void setText(String text) {
+        if (coords==null)
+        {
+            initData(text);
+        }
+
+        if (!text.equals(coords))
+        {
+            initData(coords);
+        }
+    }
+
+    @Override
+    public void updateProgress(String text) {
+        if (progressDialog != null && progressDialog.isShowing()) {
+            progressDialog.setMessage(text);
+        }
+    }
+
+    @Override
+    public void dismissProgress() {
+        if (progressDialog != null && progressDialog.isShowing()) {
+            progressDialog.dismiss();
+        }
     }
 
 }

@@ -1,5 +1,6 @@
 package com.example.weatherforecast;
 
+
 import android.location.Location;
 import android.text.TextUtils;
 
@@ -93,17 +94,11 @@ public class SamplePresenter {
     }
 
     private void setText(Location location) {
-        String appendValue = location.getLatitude() + "," + location.getLongitude() + "\n";
+        String appendValue = location.getLatitude() + "&lon=" + location.getLongitude();
         String newValue;
-        CharSequence current = sampleView.getText();
-
-//        if (!TextUtils.isEmpty(current)) {
-//            newValue = current + appendValue;
-//        } else {
-//            newValue = appendValue;
-//        }
-
+//        CharSequence current = sampleView.getText();
         newValue = appendValue;
+
         sampleView.setText(newValue);
     }
 
@@ -120,4 +115,3 @@ public class SamplePresenter {
     }
 
 }
-

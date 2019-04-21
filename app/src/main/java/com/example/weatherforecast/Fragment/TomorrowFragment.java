@@ -79,9 +79,13 @@ public class TomorrowFragment extends LocationBaseFragment implements SamplePres
 
         initView(view);
 
-        MainActivity main = (MainActivity) getActivity();
-        initData(main.data);
+        main = (MainActivity) getActivity();
         coords=main.data;
+        Log.d("Toado", "data: " + coords);
+
+        initData(coords);
+        samplePresenter = new SamplePresenter(this);
+        getLocation();
 
         return view;
     }
@@ -91,7 +95,12 @@ public class TomorrowFragment extends LocationBaseFragment implements SamplePres
         if (samplePresenter != null) samplePresenter.destroy();
     }
 
-
+    @Override
+    public void updateProgress(String text) {
+        if (progressDialog != null && progressDialog.isShowing()) {
+            progressDialog.setMessage(text);
+        }
+    }
     @Override
     public LocationConfiguration getLocationConfiguration() {
         return Configurations.defaultConfiguration("Gimme the permission!", "Would you mind to turn GPS on?");
@@ -149,13 +158,14 @@ public class TomorrowFragment extends LocationBaseFragment implements SamplePres
 
     @Override
     public void setText(String text) {
-        coords=text;
-    }
+        if (coords==null)
+        {
+            initData(text);
+        }
 
-    @Override
-    public void updateProgress(String text) {
-        if (progressDialog != null && progressDialog.isShowing()) {
-            progressDialog.setMessage(text);
+        if (!text.equals(coords))
+        {
+            initData(coords);
         }
     }
 
@@ -175,8 +185,8 @@ public class TomorrowFragment extends LocationBaseFragment implements SamplePres
 
     public void initData(String data) {
         RequestQueue requestQueue = Volley.newRequestQueue(getActivity().getApplicationContext());
-        String url = "https://api.openweathermap.org/data/2.5/forecast/hourly?id=" + data + "&appid=b72ce368d7a441149f85cdddf363df06&cnt=24&units=metric";
-
+//        String url = "https://api.openweathermap.org/data/2.5/forecast/hourly?id=" + data + "&appid=b72ce368d7a441149f85cdddf363df06&cnt=24&units=metric";
+        String url = "https://api.openweathermap.org/data/2.5/forecast/hourly?lat=" + data + "&appid=b72ce368d7a441149f85cdddf363df06&cnt=24&units=metric";
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {

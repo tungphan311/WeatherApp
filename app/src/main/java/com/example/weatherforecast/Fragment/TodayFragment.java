@@ -11,10 +11,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -24,7 +22,6 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.weatherforecast.Activity.ChooseCity;
 import com.example.weatherforecast.Activity.MainActivity;
-import com.example.weatherforecast.Activity.SearchActivity;
 import com.example.weatherforecast.R;
 import com.example.weatherforecast.SamplePresenter;
 import com.squareup.picasso.Picasso;
@@ -50,7 +47,7 @@ public class TodayFragment extends LocationBaseFragment implements SamplePresent
     ImageView imgWeatherIcon;
     private SamplePresenter samplePresenter;
     private ProgressDialog progressDialog;
-    String data,lat,lon;
+    String coords;
     ImageView imgMenu;
     MainActivity main;
     TextView tvStatus;
@@ -67,15 +64,12 @@ public class TodayFragment extends LocationBaseFragment implements SamplePresent
         initData(view);
 
          main = (MainActivity) getActivity();
+         coords=main.data;
+         Log.d("Toado", "data: " + coords);
 
-         Log.d("Toado", "data: " + main.data);
-
-        GetCurrentWeather(main.data);
-
+        GetCurrentWeather(coords);
         initEvent();
         samplePresenter = new SamplePresenter(this);
-
-
         getLocation();
 
         return view;
@@ -142,13 +136,21 @@ public class TodayFragment extends LocationBaseFragment implements SamplePresent
     @Override
     public String getText() {
 
-        return txtName.getText().toString();
+        return coords;
 
     }
 
     @Override
     public void setText(String text) {
+        if (coords==null)
+        {
+            GetCurrentWeather(text);
+        }
 
+        if (!text.equals(coords))
+        {
+            GetCurrentWeather(coords);
+        }
     }
 
     @Override
@@ -184,8 +186,8 @@ public class TodayFragment extends LocationBaseFragment implements SamplePresent
 
     public void GetCurrentWeather(String data) {
         RequestQueue requestQueue = Volley.newRequestQueue(getContext().getApplicationContext());
-        String url = "https://api.openweathermap.org/data/2.5/weather?id=" + data + "&appid=b72ce368d7a441149f85cdddf363df06&units=metric";
-        //String url = "https://api.openweathermap.org/data/2.5/weather?lat=" + data + "&appid=b72ce368d7a441149f85cdddf363df06&units=metric";
+//        String url = "https://api.openweathermap.org/data/2.5/weather?id=" + data + "&appid=b72ce368d7a441149f85cdddf363df06&units=metric";
+        String url = "https://api.openweathermap.org/data/2.5/weather?lat=" + data + "&appid=b72ce368d7a441149f85cdddf363df06&units=metric";
         StringRequest stringRequest = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
                     @Override

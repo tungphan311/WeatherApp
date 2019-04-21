@@ -1,27 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/tung/Documents/WeatherForecast-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml",
+            "outputFile": "/Users/dangquang9a/Documents/WeatherApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my/values-my.xml",
             "map": [
                 {
-                    "source": "/Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/507e4b0aa169dfbfc9dc730ae7954fad/res/values-my/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "340,449,645,781,894,1104,1317,1451,1590,1848,1979,2087,2288,2433,2650,2799,3016,3116,3219",
-                        "endColumns": "108,195,135,112,209,212,133,138,257,130,107,200,144,216,148,216,99,102,117",
-                        "endOffsets": "444,640,776,889,1099,1312,1446,1585,1843,1974,2082,2283,2428,2645,2794,3011,3111,3214,3332"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46,47,48",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2895,3004,3200,3336,3449,3659,3872,4006,4397,4655,4786,4894,5095,5240,5457,5606,5823,5923,6026",
-                        "endColumns": "108,195,135,112,209,212,133,138,257,130,107,200,144,216,148,216,99,102,117",
-                        "endOffsets": "2999,3195,3331,3444,3654,3867,4001,4140,4650,4781,4889,5090,5235,5452,5601,5818,5918,6021,6139"
-                    }
-                },
-                {
-                    "source": "/Users/tung/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/8a29e763d52821a0ee6ddadc745c9b79/res/values-my/values.xml",
+                    "source": "/Users/dangquang9a/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.6.1.aar/ae019b874a48be213ee96d375deaa176/res/values-my/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",
@@ -38,7 +21,24 @@
                     }
                 },
                 {
-                    "source": "/Users/tung/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/fa1e41dc10bab9803a7dd1b3405a2269/res/values-my/values-my.xml",
+                    "source": "/Users/dangquang9a/.gradle/caches/transforms-1/files-1.1/play-services-base-9.6.1.aar/b6dafeccf601a7add5c3480d3c98e655/res/values-my/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "340,449,645,781,894,1104,1317,1451,1590,1848,1979,2087,2288,2433,2650,2799,3016,3116,3219",
+                        "endColumns": "108,195,135,112,209,212,133,138,257,130,107,200,144,216,148,216,99,102,117",
+                        "endOffsets": "444,640,776,889,1099,1312,1446,1585,1843,1974,2082,2283,2428,2645,2794,3011,3111,3214,3332"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46,47,48",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2895,3004,3200,3336,3449,3659,3872,4006,4397,4655,4786,4894,5095,5240,5457,5606,5823,5923,6026",
+                        "endColumns": "108,195,135,112,209,212,133,138,257,130,107,200,144,216,148,216,99,102,117",
+                        "endOffsets": "2999,3195,3331,3444,3654,3867,4001,4140,4650,4781,4889,5090,5235,5452,5601,5818,5918,6021,6139"
+                    }
+                },
+                {
+                    "source": "/Users/dangquang9a/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/216fb1d11673c6ad13bef76ced858261/res/values-my/values-my.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "/Users/tung/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b68b359036618c8e927e71a626966607/res/values-my/values-my.xml",
+                    "source": "/Users/dangquang9a/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c92b23e432a3e8e470c4e04df3c7e3e1/res/values-my/values-my.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
