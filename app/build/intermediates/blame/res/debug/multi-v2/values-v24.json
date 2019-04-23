@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/dangquang9a/Documents/WeatherApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "F:\\WeatherApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/dangquang9a/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/9fedf9032a5f723e330795ed0170f0c3/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\Tung\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\5e329d29247c53d22a9ffbfb73fe5311\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/dangquang9a/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/c92b23e432a3e8e470c4e04df3c7e3e1/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\Tung\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\5de3435568520935e1d55cafa95b4d9b\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

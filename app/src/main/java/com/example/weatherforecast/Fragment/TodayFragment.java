@@ -3,7 +3,10 @@ package com.example.weatherforecast.Fragment;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.location.Location;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -11,8 +14,10 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -22,6 +27,7 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.weatherforecast.Activity.ChooseCity;
 import com.example.weatherforecast.Activity.MainActivity;
+import com.example.weatherforecast.Activity.OtherCity;
 import com.example.weatherforecast.R;
 import com.example.weatherforecast.SamplePresenter;
 import com.squareup.picasso.Picasso;
@@ -35,6 +41,10 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -51,6 +61,7 @@ public class TodayFragment extends LocationBaseFragment implements SamplePresent
     ImageView imgMenu;
     MainActivity main;
     TextView tvStatus;
+    Button btnOtherCity;
 
     public TodayFragment() {
         // Required empty public constructor
@@ -180,8 +191,36 @@ public class TodayFragment extends LocationBaseFragment implements SamplePresent
         txtSunset = view.findViewById(R.id.sunset);
         txtSunrise = view.findViewById(R.id.sunrise);
         txtDescription = view.findViewById(R.id.description);
-        imgMenu = view.findViewById(R.id.iv_menu);
+       // imgMenu = view.findViewById(R.id.iv_menu);
         tvStatus = view.findViewById(R.id.weather);
+        btnOtherCity = view.findViewById(R.id.btnOtherCity);
+    }
+
+    private class DownloadImageFromInternet extends AsyncTask<String, Void, Bitmap> {
+        ImageView imageView;
+
+        public DownloadImageFromInternet(ImageView imageView) {
+            this.imageView = imageView;
+            Toast.makeText(getActivity().getApplicationContext(), "Please wait, it may take a few minute...", Toast.LENGTH_SHORT).show();
+        }
+
+        protected Bitmap doInBackground(String... urls) {
+            String imageURL = urls[0];
+            Bitmap bimage = null;
+            try {
+                InputStream in = new java.net.URL(imageURL).openStream();
+                bimage = BitmapFactory.decodeStream(in);
+
+            } catch (Exception e) {
+                Log.e("Error Message", e.getMessage());
+                e.printStackTrace();
+            }
+            return bimage;
+        }
+
+        protected void onPostExecute(Bitmap result) {
+            imageView.setImageBitmap(result);
+        }
     }
 
     public void GetCurrentWeather(String data) {
@@ -210,8 +249,7 @@ public class TodayFragment extends LocationBaseFragment implements SamplePresent
                             String status = jsonObjectWeather.getString("main");
                             String icon = jsonObjectWeather.getString("icon");
 
-                            Picasso.with(getActivity().getApplicationContext()).load("http://openweathermap.org/img/w/" + icon +".png")
-                                    .into(imgWeatherIcon);
+                            Picasso.with(getActivity().getApplicationContext()).load("http://openweathermap.org/img/w/" + icon +".png").into(imgWeatherIcon);
 
                             String description = jsonObjectWeather.getString("description");
 
@@ -275,10 +313,10 @@ public class TodayFragment extends LocationBaseFragment implements SamplePresent
     }
 
     public void initEvent() {
-        imgMenu.setOnClickListener(new View.OnClickListener() {
+        btnOtherCity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), ChooseCity.class);
+                Intent intent = new Intent(getActivity().getApplicationContext(), ChooseCity.class);
                 startActivity(intent);
             }
         });

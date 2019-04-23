@@ -94,7 +94,6 @@ public class ChooseCity extends Activity {
                         JSONObject jsonObjectWeather = jsonArrayWeather.getJSONObject(0);
                         String ic = jsonObjectWeather.getString("icon");
                         String icon = "http://openweathermap.org/img/w/" + ic +".png";
-                        Toast.makeText(ChooseCity.this, icon, Toast.LENGTH_SHORT).show();
 
                         JSONObject jsonObjectMain = jsonObjectCity.getJSONObject("main");
                         String temp = jsonObjectMain.getString("temp");
@@ -162,7 +161,7 @@ public class ChooseCity extends Activity {
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                Intent intent = new Intent(ChooseCity.this, OtherCity.class);
                 intent.putExtra("id", listCity.get(position).ID);
                 intent.putExtra("lat", listCity.get(position).Lat);
                 intent.putExtra("lon", listCity.get(position).Lon);
